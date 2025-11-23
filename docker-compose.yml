@@ -5,6 +5,7 @@ services:
     environment:
       NO_CORS: 1
       AUTO_SERVER_URL: 1
+      WEBUI_LOCATION: http://192.168.1.41:8080/	
       #IPADDRESS: 192.168.1.41 # Setup your ip address here
     ports:
       - "8080:8080"

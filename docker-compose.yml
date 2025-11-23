@@ -5,7 +5,7 @@ services:
     environment:
       NO_CORS: 1
       AUTO_SERVER_URL: 1
-      IPADDRESS: 192.168.1.41 # Setup your ip address here
+      #IPADDRESS: 192.168.1.41 # Setup your ip address here
     ports:
       - "8080:8080"
     volumes:

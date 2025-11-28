@@ -7,6 +7,6 @@ services:
       AUTO_SERVER_URL: 1	
       IPADDRESS: 192.168.1.41 # Setup your ip address here
     ports:
-      - "8080:8080"
+      - "8181:8181"
     volumes:
       - "./stremio-data:/root/.stremio-server"

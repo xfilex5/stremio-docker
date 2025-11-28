@@ -158,7 +158,7 @@ RUN rm -rf /var/cache/apk/* && rm -rf /tmp/*
 VOLUME ["/root/.stremio-server"]
 
 # Expose default ports
-EXPOSE 8080
+EXPOSE 8181
 
 ENTRYPOINT []
 
